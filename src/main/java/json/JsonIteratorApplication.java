@@ -36,9 +36,7 @@ public class JsonIteratorApplication {
 			contador++;
 		}
 
-		System.out.println();
-		System.out.println("-".repeat(20));
-		System.out.println();
+		System.out.println("\n" + "-".repeat(20) + "\n");
 
 		System.out.println(
 				"Passando objeto por objeto, chave por chave, do arquivo JSON com while\nSem saber as chaves\n");
@@ -55,10 +53,8 @@ public class JsonIteratorApplication {
 			contador++;
 		}
 		
-		System.out.println();
-		System.out.println("-".repeat(20));
-		System.out.println();
-
+		System.out.println("\n" + "-".repeat(20) + "\n");
+	
 		System.out.println("Passando objeto por objeto do arquivo JSON com while\n");
 		contador = 0;
 		while (contador < jsonzinho.size()) {
@@ -69,9 +65,7 @@ public class JsonIteratorApplication {
 			contador++;
 		}
 
-		System.out.println();
-		System.out.println("-".repeat(20));
-		System.out.println();
+		System.out.println("\n" + "-".repeat(20) + "\n");
 
 		System.out.println("Passando objeto por objeto do arquivo JSON com for e map\n");
 		contador = 0;
