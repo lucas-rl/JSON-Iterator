@@ -1,4 +1,4 @@
-package com.json;
+package json;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -59,7 +59,7 @@ public class JsonIteratorApplication {
 		System.out.println("-".repeat(20));
 		System.out.println();
 
-		System.out.println("Passando obejto por objeto do arquivo JSON com while\n");
+		System.out.println("Passando objeto por objeto do arquivo JSON com while\n");
 		contador = 0;
 		while (contador < jsonzinho.size()) {
 			System.out.println("Objeto -> " + (contador + 1));
@@ -73,7 +73,7 @@ public class JsonIteratorApplication {
 		System.out.println("-".repeat(20));
 		System.out.println();
 
-		System.out.println("Passando obejto por objeto do arquivo JSON com for e map\n");
+		System.out.println("Passando objeto por objeto do arquivo JSON com for e map\n");
 		contador = 0;
 		while (contador < jsonzinho.size()) {
 			System.out.println("Objeto -> " + (contador + 1));
